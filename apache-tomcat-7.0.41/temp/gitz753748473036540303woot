@@ -1,0 +1,7 @@
+<org.uberfire.workbench.model.impl.SplashScreenFilterImpl>
+  <name>home.splash</name>
+  <displayNextTime>false</displayNextTime>
+  <interceptionPoints class="list">
+    <string>org.kie.workbench.common.screens.home.client.perspectives.HomePerspective</string>
+  </interceptionPoints>
+</org.uberfire.workbench.model.impl.SplashScreenFilterImpl>

@@ -1,0 +1,26 @@
+<org.uberfire.workbench.model.impl.PerspectiveDefinitionImpl>
+  <name>M2 Repository Explorer</name>
+  <isTransient>false</isTransient>
+  <root class="org.uberfire.workbench.model.impl.PanelDefinitionImpl">
+    <height>593</height>
+    <width>1525</width>
+    <parts>
+      <org.uberfire.workbench.model.impl.PartDefinitionImpl>
+        <place class="org.uberfire.mvp.impl.DefaultPlaceRequest">
+          <identifier>M2RepoEditor</identifier>
+          <parameters/>
+        </place>
+        <parentPanel class="org.uberfire.workbench.model.impl.PanelDefinitionImpl" reference="../../.."/>
+        <isMinimized>false</isMinimized>
+        <contextDisplayMode>SHOW</contextDisplayMode>
+      </org.uberfire.workbench.model.impl.PartDefinitionImpl>
+    </parts>
+    <children/>
+    <position>ROOT</position>
+    <panelType>ROOT_STATIC</panelType>
+    <defaultChildPanelType>STATIC</defaultChildPanelType>
+    <isRoot>true</isRoot>
+    <contextDisplayMode>SHOW</contextDisplayMode>
+  </root>
+  <contextDisplayMode>SHOW</contextDisplayMode>
+</org.uberfire.workbench.model.impl.PerspectiveDefinitionImpl>

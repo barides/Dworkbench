@@ -1,0 +1,7 @@
+<org.uberfire.workbench.model.impl.SplashScreenFilterImpl>
+  <name>artifact_repository_perspective.splash</name>
+  <displayNextTime>false</displayNextTime>
+  <interceptionPoints class="list">
+    <string>org.guvnor.m2repo.client.perspectives.GuvnorM2RepoPerspective</string>
+  </interceptionPoints>
+</org.uberfire.workbench.model.impl.SplashScreenFilterImpl>

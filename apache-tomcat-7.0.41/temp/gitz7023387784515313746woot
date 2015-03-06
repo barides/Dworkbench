@@ -1,0 +1,171 @@
+<org.kie.workbench.common.screens.explorer.backend.server.UserExplorerData>
+  <organizationalUnit class="org.uberfire.backend.organizationalunit.impl.OrganizationalUnitImpl">
+    <name>demo</name>
+    <owner>demo@demo.org</owner>
+    <repositories class="list">
+      <org.uberfire.backend.repositories.impl.git.GitRepository>
+        <environment>
+          <entry>
+            <string>username</string>
+            <string>guvnorngtestuser1</string>
+          </entry>
+          <entry>
+            <string>scheme</string>
+            <string>git</string>
+          </entry>
+          <entry>
+            <string>security:roles</string>
+            <list/>
+          </entry>
+          <entry>
+            <string>origin</string>
+            <string>https://github.com/guvnorngtestuser1/guvnorng-playground.git</string>
+          </entry>
+          <entry>
+            <string>password</string>
+            <string>test1234</string>
+          </entry>
+        </environment>
+        <publicURIs>
+          <org.uberfire.backend.repositories.impl.DefaultPublicURI>
+            <protocol>git</protocol>
+            <uri>git://localhost:9418/uf-playground</uri>
+          </org.uberfire.backend.repositories.impl.DefaultPublicURI>
+          <org.uberfire.backend.repositories.impl.DefaultPublicURI>
+            <protocol>ssh</protocol>
+            <uri>ssh://localhost:8001/uf-playground</uri>
+          </org.uberfire.backend.repositories.impl.DefaultPublicURI>
+        </publicURIs>
+        <alias>uf-playground</alias>
+        <root class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@uf-playground/</uri>
+          <fileName>/</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </root>
+        <roles class="list"/>
+        <requiresRefresh>true</requiresRefresh>
+        <branches>
+          <string>origin</string>
+          <string>master</string>
+        </branches>
+        <currentBranch>master</currentBranch>
+      </org.uberfire.backend.repositories.impl.git.GitRepository>
+    </repositories>
+    <roles class="list"/>
+    <requiresRefresh>true</requiresRefresh>
+  </organizationalUnit>
+  <content>
+    <entry>
+      <string>demo</string>
+      <org.uberfire.backend.repositories.impl.git.GitRepository reference="../../../organizationalUnit/repositories/org.uberfire.backend.repositories.impl.git.GitRepository"/>
+    </entry>
+    <entry>
+      <string>org.kie.workbench.common.screens.explorer.backend.server.UserExplorerData$PackageKey{k1=demo, k2=uf-playground, k3=default://master@uf-playground/mortgages/pom.xml}</string>
+      <org.guvnor.common.services.project.model.Package>
+        <projectRootPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@uf-playground/mortgages</uri>
+          <fileName>mortgages</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </projectRootPath>
+        <packageMainSrcPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@uf-playground/mortgages/src/main/java</uri>
+          <fileName>java</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </packageMainSrcPath>
+        <packageTestSrcPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@uf-playground/mortgages/src/test/java</uri>
+          <fileName>java</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </packageTestSrcPath>
+        <packageMainResourcesPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@uf-playground/mortgages/src/main/resources</uri>
+          <fileName>resources</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </packageMainResourcesPath>
+        <packageTestResourcesPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@uf-playground/mortgages/src/test/resources</uri>
+          <fileName>resources</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </packageTestResourcesPath>
+        <packageName></packageName>
+        <caption>&lt;default&gt;</caption>
+        <relativeCaption>&lt;default&gt;</relativeCaption>
+      </org.guvnor.common.services.project.model.Package>
+    </entry>
+    <entry>
+      <string>org.uberfire.commons.data.Pair{k1=demo, k2=uf-playground}</string>
+      <org.guvnor.common.services.project.model.Project>
+        <rootPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@uf-playground/mortgages</uri>
+          <fileName>mortgages</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </rootPath>
+        <pomXMLPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@uf-playground/mortgages/pom.xml</uri>
+          <fileName>pom.xml</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </pomXMLPath>
+        <kmoduleXMLPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@uf-playground/mortgages/src/main/resources/META-INF/kmodule.xml</uri>
+          <fileName>kmodule.xml</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </kmoduleXMLPath>
+        <importsPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+          <uri>default://master@uf-playground/mortgages/project.imports</uri>
+          <fileName>project.imports</fileName>
+          <attributes/>
+          <hasVersionSupport>true</hasVersionSupport>
+        </importsPath>
+        <projectName>mortgages</projectName>
+        <roles class="list"/>
+      </org.guvnor.common.services.project.model.Project>
+    </entry>
+    <entry>
+      <string>org.kie.workbench.common.screens.explorer.backend.server.UserExplorerData$FolderItemKey{k1=demo, k2=uf-playground, k3=default://master@uf-playground/mortgages/pom.xml}</string>
+      <org.kie.workbench.common.screens.explorer.model.FolderItem>
+        <item class="org.guvnor.common.services.project.model.Package" reference="../../../entry[2]/org.guvnor.common.services.project.model.Package"/>
+        <itemName>&lt;default&gt;</itemName>
+        <type>FOLDER</type>
+      </org.kie.workbench.common.screens.explorer.model.FolderItem>
+    </entry>
+  </content>
+  <organizationalUnitKeys>
+    <entry>
+      <string>demo</string>
+      <set>
+        <string>demo</string>
+        <string>org.kie.workbench.common.screens.explorer.backend.server.UserExplorerData$PackageKey{k1=demo, k2=uf-playground, k3=default://master@uf-playground/mortgages/pom.xml}</string>
+        <string>org.uberfire.commons.data.Pair{k1=demo, k2=uf-playground}</string>
+        <string>org.kie.workbench.common.screens.explorer.backend.server.UserExplorerData$FolderItemKey{k1=demo, k2=uf-playground, k3=default://master@uf-playground/mortgages/pom.xml}</string>
+      </set>
+    </entry>
+  </organizationalUnitKeys>
+  <repositoryKeys>
+    <entry>
+      <string>git://uf-playground</string>
+      <set>
+        <string>org.kie.workbench.common.screens.explorer.backend.server.UserExplorerData$PackageKey{k1=demo, k2=uf-playground, k3=default://master@uf-playground/mortgages/pom.xml}</string>
+        <string>org.uberfire.commons.data.Pair{k1=demo, k2=uf-playground}</string>
+        <string>org.kie.workbench.common.screens.explorer.backend.server.UserExplorerData$FolderItemKey{k1=demo, k2=uf-playground, k3=default://master@uf-playground/mortgages/pom.xml}</string>
+      </set>
+    </entry>
+  </repositoryKeys>
+  <projectKeys>
+    <entry>
+      <string>default://master@uf-playground/mortgages/pom.xml</string>
+      <set>
+        <string>org.kie.workbench.common.screens.explorer.backend.server.UserExplorerData$PackageKey{k1=demo, k2=uf-playground, k3=default://master@uf-playground/mortgages/pom.xml}</string>
+        <string>org.kie.workbench.common.screens.explorer.backend.server.UserExplorerData$FolderItemKey{k1=demo, k2=uf-playground, k3=default://master@uf-playground/mortgages/pom.xml}</string>
+      </set>
+    </entry>
+  </projectKeys>
+</org.kie.workbench.common.screens.explorer.backend.server.UserExplorerData>

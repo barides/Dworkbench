@@ -1,0 +1,7 @@
+<org.uberfire.workbench.model.impl.SplashScreenFilterImpl>
+  <name>administration_perspective.splash</name>
+  <displayNextTime>true</displayNextTime>
+  <interceptionPoints class="list">
+    <string>org.kie.workbench.drools.client.perspectives.AdministrationPerspective</string>
+  </interceptionPoints>
+</org.uberfire.workbench.model.impl.SplashScreenFilterImpl>

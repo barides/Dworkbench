@@ -1,0 +1,50 @@
+<group>
+  <name>settings</name>
+  <description></description>
+  <type>GLOBAL</type>
+  <enabled>true</enabled>
+  <items>
+    <entry>
+      <string>drools.dateformat</string>
+      <item>
+        <name>drools.dateformat</name>
+        <value class="string">dd-MMM-yyyy</value>
+      </item>
+    </entry>
+    <entry>
+      <string>rule-modeller-onlyShowDSLStatements</string>
+      <item>
+        <name>rule-modeller-onlyShowDSLStatements</name>
+        <value class="string">false</value>
+      </item>
+    </entry>
+    <entry>
+      <string>drools.defaultlanguage</string>
+      <item>
+        <name>drools.defaultlanguage</name>
+        <value class="string">en</value>
+      </item>
+    </entry>
+    <entry>
+      <string>drools.defaultcountry</string>
+      <item>
+        <name>drools.defaultcountry</name>
+        <value class="string">US</value>
+      </item>
+    </entry>
+    <entry>
+      <string>drools.datetimeformat</string>
+      <item>
+        <name>drools.datetimeformat</name>
+        <value class="string">dd-MMM-yyyy hh:mm:ss</value>
+      </item>
+    </entry>
+    <entry>
+      <string>build.enable-incremental</string>
+      <item>
+        <name>build.enable-incremental</name>
+        <value class="string">true</value>
+      </item>
+    </entry>
+  </items>
+</group>

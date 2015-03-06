@@ -1,0 +1,156 @@
+<org.kie.workbench.common.screens.explorer.backend.server.UserExplorerLastData>
+  <lastPackage>
+    <organizationalUnit class="org.uberfire.backend.organizationalunit.impl.OrganizationalUnitImpl">
+      <name>Bingo</name>
+      <owner>Bingo</owner>
+      <repositories class="list">
+        <org.uberfire.backend.repositories.impl.git.GitRepository>
+          <environment>
+            <entry>
+              <string>scheme</string>
+              <string>git</string>
+            </entry>
+            <entry>
+              <string>security:roles</string>
+              <list/>
+            </entry>
+          </environment>
+          <publicURIs>
+            <org.uberfire.backend.repositories.impl.DefaultPublicURI>
+              <protocol>git</protocol>
+              <uri>git://localhost:9418/bingo</uri>
+            </org.uberfire.backend.repositories.impl.DefaultPublicURI>
+            <org.uberfire.backend.repositories.impl.DefaultPublicURI>
+              <protocol>ssh</protocol>
+              <uri>ssh://localhost:8001/bingo</uri>
+            </org.uberfire.backend.repositories.impl.DefaultPublicURI>
+          </publicURIs>
+          <alias>bingo</alias>
+          <root class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+            <uri>default://master@bingo/</uri>
+            <fileName>/</fileName>
+            <attributes/>
+            <hasVersionSupport>true</hasVersionSupport>
+          </root>
+          <roles class="list"/>
+          <requiresRefresh>true</requiresRefresh>
+          <branches>
+            <string>master</string>
+          </branches>
+          <currentBranch>master</currentBranch>
+        </org.uberfire.backend.repositories.impl.git.GitRepository>
+      </repositories>
+      <roles class="list"/>
+      <requiresRefresh>true</requiresRefresh>
+    </organizationalUnit>
+    <repository class="org.uberfire.backend.repositories.impl.git.GitRepository">
+      <environment>
+        <entry>
+          <string>scheme</string>
+          <string>git</string>
+        </entry>
+        <entry>
+          <string>security:roles</string>
+          <list/>
+        </entry>
+      </environment>
+      <publicURIs>
+        <org.uberfire.backend.repositories.impl.DefaultPublicURI>
+          <protocol>git</protocol>
+          <uri>git://localhost:9418/bingo</uri>
+        </org.uberfire.backend.repositories.impl.DefaultPublicURI>
+        <org.uberfire.backend.repositories.impl.DefaultPublicURI>
+          <protocol>ssh</protocol>
+          <uri>ssh://localhost:8001/bingo</uri>
+        </org.uberfire.backend.repositories.impl.DefaultPublicURI>
+      </publicURIs>
+      <alias>bingo</alias>
+      <root class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@bingo/</uri>
+        <fileName>/</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </root>
+      <roles class="list"/>
+      <requiresRefresh>true</requiresRefresh>
+      <branches>
+        <string>master</string>
+      </branches>
+      <currentBranch>master</currentBranch>
+    </repository>
+    <project>
+      <rootPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@bingo/bingo</uri>
+        <fileName>bingo</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </rootPath>
+      <pomXMLPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@bingo/bingo/pom.xml</uri>
+        <fileName>pom.xml</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </pomXMLPath>
+      <kmoduleXMLPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@bingo/bingo/src/main/resources/META-INF/kmodule.xml</uri>
+        <fileName>kmodule.xml</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </kmoduleXMLPath>
+      <importsPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@bingo/bingo/project.imports</uri>
+        <fileName>project.imports</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </importsPath>
+      <projectName>bingo</projectName>
+      <roles class="list"/>
+    </project>
+    <pkg>
+      <projectRootPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@bingo/bingo</uri>
+        <fileName>bingo</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </projectRootPath>
+      <packageMainSrcPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@bingo/bingo/src/main/java/com/eight</uri>
+        <fileName>eight</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </packageMainSrcPath>
+      <packageTestSrcPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@bingo/bingo/src/test/java/com/eight</uri>
+        <fileName>eight</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </packageTestSrcPath>
+      <packageMainResourcesPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@bingo/bingo/src/main/resources/com/eight</uri>
+        <fileName>eight</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </packageMainResourcesPath>
+      <packageTestResourcesPath class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+        <uri>default://master@bingo/bingo/src/test/resources/com/eight</uri>
+        <fileName>eight</fileName>
+        <attributes/>
+        <hasVersionSupport>true</hasVersionSupport>
+      </packageTestResourcesPath>
+      <packageName>com.eight</packageName>
+      <caption>com.eight</caption>
+      <relativeCaption>eight</relativeCaption>
+    </pkg>
+  </lastPackage>
+  <lastFolderItem>
+    <organizationalUnit class="org.uberfire.backend.organizationalunit.impl.OrganizationalUnitImpl" reference="../../lastPackage/organizationalUnit"/>
+    <repository class="org.uberfire.backend.repositories.impl.git.GitRepository" reference="../../lastPackage/repository"/>
+    <project reference="../../lastPackage/project"/>
+    <item>
+      <item class="org.guvnor.common.services.project.model.Package" reference="../../../lastPackage/pkg"/>
+      <itemName>eight</itemName>
+      <type>FOLDER</type>
+    </item>
+  </lastFolderItem>
+  <options/>
+</org.kie.workbench.common.screens.explorer.backend.server.UserExplorerLastData>

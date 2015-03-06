@@ -1,0 +1,22 @@
+<group>
+  <name>Marketing</name>
+  <description></description>
+  <type>REPOSITORY</type>
+  <enabled>true</enabled>
+  <items>
+    <entry>
+      <string>scheme</string>
+      <item>
+        <name>scheme</name>
+        <value class="string">git</value>
+      </item>
+    </entry>
+    <entry>
+      <string>security:roles</string>
+      <item>
+        <name>security:roles</name>
+        <value class="list"/>
+      </item>
+    </entry>
+  </items>
+</group>

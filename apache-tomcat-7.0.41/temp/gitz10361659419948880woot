@@ -1,0 +1,43 @@
+<group>
+  <name>uf-playground</name>
+  <description></description>
+  <type>REPOSITORY</type>
+  <enabled>true</enabled>
+  <items>
+    <entry>
+      <string>username</string>
+      <item>
+        <name>username</name>
+        <value class="string">guvnorngtestuser1</value>
+      </item>
+    </entry>
+    <entry>
+      <string>scheme</string>
+      <item>
+        <name>scheme</name>
+        <value class="string">git</value>
+      </item>
+    </entry>
+    <entry>
+      <string>security:roles</string>
+      <item>
+        <name>security:roles</name>
+        <value class="list"/>
+      </item>
+    </entry>
+    <entry>
+      <string>origin</string>
+      <item>
+        <name>origin</name>
+        <value class="string">https://github.com/guvnorngtestuser1/guvnorng-playground.git</value>
+      </item>
+    </entry>
+    <entry>
+      <string>password</string>
+      <org.uberfire.backend.server.config.SecureConfigItem>
+        <name>password</name>
+        <value class="string">WZNYE3pqUpVcuNqT5C2eNs2Mirq4NfkK</value>
+      </org.uberfire.backend.server.config.SecureConfigItem>
+    </entry>
+  </items>
+</group>

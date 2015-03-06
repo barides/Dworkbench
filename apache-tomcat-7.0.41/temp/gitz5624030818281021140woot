@@ -1,0 +1,104 @@
+<org.uberfire.workbench.model.impl.PerspectiveDefinitionImpl>
+  <name>Administration</name>
+  <isTransient>false</isTransient>
+  <root class="org.uberfire.workbench.model.impl.PanelDefinitionImpl">
+    <height>593</height>
+    <width>1217</width>
+    <parts>
+      <org.uberfire.workbench.model.impl.PartDefinitionImpl>
+        <place class="org.uberfire.mvp.impl.DefaultPlaceRequest">
+          <identifier>RepositoriesEditor</identifier>
+          <parameters/>
+        </place>
+        <parentPanel class="org.uberfire.workbench.model.impl.PanelDefinitionImpl" reference="../../.."/>
+        <isMinimized>false</isMinimized>
+        <contextDisplayMode>SHOW</contextDisplayMode>
+      </org.uberfire.workbench.model.impl.PartDefinitionImpl>
+      <org.uberfire.workbench.model.impl.PartDefinitionImpl>
+        <place class="org.uberfire.mvp.impl.DefaultPlaceRequest">
+          <identifier>RepositoryEditor</identifier>
+          <parameters>
+            <entry>
+              <string>alias</string>
+              <string>Marketing</string>
+            </entry>
+          </parameters>
+        </place>
+        <parentPanel class="org.uberfire.workbench.model.impl.PanelDefinitionImpl" reference="../../.."/>
+        <isMinimized>false</isMinimized>
+        <contextDisplayMode>SHOW</contextDisplayMode>
+      </org.uberfire.workbench.model.impl.PartDefinitionImpl>
+      <org.uberfire.workbench.model.impl.PartDefinitionImpl>
+        <place class="org.uberfire.mvp.impl.DefaultPlaceRequest">
+          <identifier>RepositoryEditor</identifier>
+          <parameters>
+            <entry>
+              <string>alias</string>
+              <string>bingo</string>
+            </entry>
+          </parameters>
+        </place>
+        <parentPanel class="org.uberfire.workbench.model.impl.PanelDefinitionImpl" reference="../../.."/>
+        <isMinimized>false</isMinimized>
+        <contextDisplayMode>SHOW</contextDisplayMode>
+      </org.uberfire.workbench.model.impl.PartDefinitionImpl>
+      <org.uberfire.workbench.model.impl.PartDefinitionImpl>
+        <place class="org.uberfire.mvp.impl.PathPlaceRequest">
+          <identifier>[null]</identifier>
+          <parameters/>
+          <path class="org.uberfire.backend.vfs.impl.ObservablePathImpl">
+            <path class="org.uberfire.backend.vfs.PathFactory$PathImpl">
+              <uri>default://master@Marketing/readme.md</uri>
+              <fileName>readme.md</fileName>
+              <attributes/>
+              <hasVersionSupport>true</hasVersionSupport>
+            </path>
+            <original class="org.uberfire.backend.vfs.PathFactory$PathImpl" reference="../path"/>
+          </path>
+        </place>
+        <parentPanel class="org.uberfire.workbench.model.impl.PanelDefinitionImpl" reference="../../.."/>
+        <isMinimized>false</isMinimized>
+        <contextDisplayMode>SHOW</contextDisplayMode>
+      </org.uberfire.workbench.model.impl.PartDefinitionImpl>
+      <org.uberfire.workbench.model.impl.PartDefinitionImpl>
+        <place class="org.uberfire.mvp.impl.DefaultPlaceRequest">
+          <identifier>org.kie.workbench.common.screens.organizationalunit.manager.OrganizationalUnitManager</identifier>
+          <parameters/>
+        </place>
+        <parentPanel class="org.uberfire.workbench.model.impl.PanelDefinitionImpl" reference="../../.."/>
+        <isMinimized>false</isMinimized>
+        <contextDisplayMode>SHOW</contextDisplayMode>
+      </org.uberfire.workbench.model.impl.PartDefinitionImpl>
+    </parts>
+    <children>
+      <org.uberfire.workbench.model.impl.PanelDefinitionImpl>
+        <height>593</height>
+        <width>300</width>
+        <minWidth>200</minWidth>
+        <parts>
+          <org.uberfire.workbench.model.impl.PartDefinitionImpl>
+            <place class="org.uberfire.mvp.impl.DefaultPlaceRequest">
+              <identifier>FileExplorer</identifier>
+              <parameters/>
+            </place>
+            <parentPanel class="org.uberfire.workbench.model.impl.PanelDefinitionImpl" reference="../../.."/>
+            <isMinimized>false</isMinimized>
+            <contextDisplayMode>SHOW</contextDisplayMode>
+          </org.uberfire.workbench.model.impl.PartDefinitionImpl>
+        </parts>
+        <children/>
+        <position>WEST</position>
+        <panelType>SIMPLE</panelType>
+        <defaultChildPanelType>SIMPLE</defaultChildPanelType>
+        <isRoot>false</isRoot>
+        <contextDisplayMode>SHOW</contextDisplayMode>
+      </org.uberfire.workbench.model.impl.PanelDefinitionImpl>
+    </children>
+    <position>ROOT</position>
+    <panelType>ROOT_LIST</panelType>
+    <defaultChildPanelType>MULTI_LIST</defaultChildPanelType>
+    <isRoot>true</isRoot>
+    <contextDisplayMode>SHOW</contextDisplayMode>
+  </root>
+  <contextDisplayMode>SHOW</contextDisplayMode>
+</org.uberfire.workbench.model.impl.PerspectiveDefinitionImpl>

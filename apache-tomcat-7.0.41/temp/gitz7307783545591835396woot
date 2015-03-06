@@ -1,0 +1,14 @@
+<inbox-entries>
+  <entry>
+    <from>&lt;system&gt;</from>
+    <itemPath>default://master@bingo/bingo/src/main/resources/common-model</itemPath>
+    <note>common-model</note>
+    <timestamp>1424254868426</timestamp>
+  </entry>
+  <entry>
+    <from>&lt;system&gt;</from>
+    <itemPath>default://master@bingo/bingo/src/main/resources/com/eight/bingo/bingo/model</itemPath>
+    <note>model</note>
+    <timestamp>1424254982254</timestamp>
+  </entry>
+</inbox-entries>
